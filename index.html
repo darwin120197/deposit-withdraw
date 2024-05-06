@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Deposit and Withdraw</title>
+
+    <!-- ===== MAIN CSS ===== -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="bank-account">
+      <!-- Deposit Area  -->
+      <div class="deposit__area">
+        <h3 class="title">Deposit Amount</h3>
+        <input
+          type="number"
+          class="input__amount"
+          id="input__deposit"
+          placeholder="Enter deposit amount"
+        />
+        <button class="button" id="deposit__button">Deposit</button>
+        <p id="calculate__message__deposit"></p>
+      </div>
+      <!-- Withdraw Area  -->
+      <div class="withdraw__area">
+        <h3 class="title">Withdraw Amount</h3>
+        <input
+          type="number"
+          class="input__amount"
+          id="input__withdraw"
+          placeholder="Enter widthdraw amount"
+        />
+        <button class="button" id="withdraw__button">Withdraw</button>
+        <p id="calculate__message__withdraw"></p>
+      </div>
+    </section>
+
+    <script src="main.js"></script>
+  </body>
+</html>
